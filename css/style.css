@@ -45,6 +45,9 @@ h3 { font-size: 1rem; font-weight: 600; margin: 0 0 .3rem; }
   font-size: 1.5rem; font-weight: 300; letter-spacing: .32em; text-transform: uppercase;
   color: var(--nero); text-decoration: none; min-height: 44px; display: inline-flex; align-items: center;
 }
+.logo img { height: 34px; width: auto; }
+.logo-hero { height: clamp(90px, 22vw, 150px); width: auto; margin-inline: auto; }
+.logo-footer { height: 40px; width: auto; margin-bottom: .5rem; }
 .nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
 .nav a {
   color: var(--nero); text-decoration: none; font-size: .8rem; text-transform: uppercase; letter-spacing: .14em;
@@ -65,7 +68,7 @@ h3 { font-size: 1rem; font-weight: 600; margin: 0 0 .3rem; }
 
 /* Hero */
 .hero { text-align: center; padding-block: 6rem 5rem; }
-.hero h1 { font-size: clamp(3rem, 13vw, 6rem); font-weight: 300; letter-spacing: .3em; margin-right: -.3em; margin-bottom: 1.5rem; }
+.hero h1 { font-size: clamp(3rem, 13vw, 6rem); font-weight: 300; letter-spacing: .3em; margin-bottom: 1.5rem; }
 .hero .kicker { text-transform: uppercase; letter-spacing: .2em; font-size: .75rem; color: var(--grigio); margin: 0 0 1.25rem; }
 .hero p.lead { font-size: 1rem; max-width: 34rem; margin-inline: auto; text-transform: uppercase; letter-spacing: .06em; line-height: 1.9; }
 .hero .azioni { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 2.5rem; }
@@ -105,6 +108,7 @@ main > section > .wrap > .btn { display: flex; width: fit-content; margin: 2rem 
 .cta { text-align: center; border-top: 1px solid var(--linea); }
 .footer { background: var(--nero); color: #cfcbc2; padding-block: 2.5rem; font-size: .88rem; }
 .footer a { color: var(--fondo); }
+.footer a.ph { color: #5a4300; }
 .footer strong { letter-spacing: .3em; text-transform: uppercase; font-weight: 400; color: var(--fondo); }
 .footer .wrap { display: grid; gap: 1rem; }
 .footer .wrap a { min-height: 44px; display: inline-flex; align-items: center; }
