@@ -73,6 +73,12 @@ h3 { font-size: 1rem; font-weight: 600; margin: 0 0 .3rem; }
 .hero p.lead { font-size: 1rem; max-width: 34rem; margin-inline: auto; text-transform: uppercase; letter-spacing: .06em; line-height: 1.9; }
 .hero .azioni { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 2.5rem; }
 
+/* Foto */
+.galleria { padding-block: 0 1rem; }
+.galleria .grid { gap: 1rem; }
+.galleria img, .foto-menu img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.foto-menu { gap: 1rem; max-width: 40rem; margin: 2rem auto 0; }
+
 /* Sezioni */
 section { padding-block: 4rem; }
 .alt { background: var(--fondo-alt); }
