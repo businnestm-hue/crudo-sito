@@ -1,16 +1,19 @@
 # Sito di Crudo
 
-Sito statico (HTML + CSS, nessun framework): `index.html`, `menu.html`, `vini.html`, `contatti.html`, `css/style.css`.
+Sito statico (HTML + CSS, nessun framework): `index.html`, `menu.html`, `vini.html`, `contatti.html`, `css/style.css`, `img/`.
+Tutti i dati vengono da `../contenuti.md` (fonti: Google Maps, Canva, Instagram @crudoforli).
 
-## Vederlo
-Doppio clic su `index.html`, oppure da questa cartella:
+## Vederlo in locale
+Da questa cartella:
 ```
 python -m http.server 8000
 ```
 e apri http://localhost:8000
 
-## Prima di pubblicare
-- Tutto ciò che è evidenziato in giallo è un segnaposto: sostituiscilo con i dati di `../contenuti.md`.
-- Inserisci il link di prenotazione reale con `?utm_source=sito`.
-- Aggiungi `img/og-crudo.jpg` (foto reale, 1200×630) e il link Instagram.
-- Fai controllare il sito dal subagent `revisore-sito`.
+## Aggiornarlo
+1. Modifica `../contenuti.md` (menu, vini, orari).
+2. Chiedi a Claude Code di aggiornare le pagine e di far girare il subagent `revisore-sito`.
+3. Controlla, fai il commit, poi pubblica (lo fa una persona, non un'automazione).
+
+## Foto
+Sono a 640×640 (prese da Instagram). Per una qualità migliore sostituiscile con gli originali, mantenendo lo stesso nome file.
