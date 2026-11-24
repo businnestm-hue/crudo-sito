@@ -77,7 +77,9 @@ h3 { font-size: 1rem; font-weight: 600; margin: 0 0 .3rem; }
 .galleria { padding-block: 0 1rem; }
 .galleria .grid { gap: 1rem; }
 .galleria img, .foto-menu img { width: 100%; aspect-ratio: 1; object-fit: cover; }
-.foto-menu-box { margin: 2rem auto 0; max-width: 40rem; text-align: center; }
+.foto-larga { margin-top: 1rem; }
+.foto-larga img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.foto-menu-box { margin: 2rem auto 0; max-width: 54rem; text-align: center; }
 .foto-menu { gap: 1rem; }
 .foto-menu-box figcaption { margin-top: .5rem; }
 
